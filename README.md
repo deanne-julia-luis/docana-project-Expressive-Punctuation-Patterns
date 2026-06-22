@@ -31,6 +31,13 @@ _Group members: Oksana Melnyk, Deanne Julia Luis
 In everyday life our communication is filled with emotions which are expressed not only verbally through words but also through prosodic cues such as intonation and pitch as well as non-verbally through facial expressions, gestures or posture. However, with the spread of technologies, an increasing amount of everyday communication has moved into online space as informal written interaction. Between late 1990s and 2026 online communication changed drastically from a specialised channel of communications used by technologically privileged groups into a mass means of communication accessible to a larger part ( 75%) of the world’s population (Statistics, n.d.). 
 ![Individul using the Internet, 2006-2026](InternetUse2006-2025.png)
 
+The need to express your emotions in written digital communication has not disappeared so new means for it have been developed, such es emoticons or existing means have acquired new meanings such as punctuation marks. Punctuation has acquired a new function - communicative, it has become “a device for organizing written interactions sequentially and establishing shared meanings between participants” (Busch, 2021, p. 2).
+
+In addition to its grammatical and communicative functions, punctuation may provide insight into stylistic features associated with particular authors and genres. It is considered as a ‘supra-linguistic’ representational system which is not fully and may never be standardised (Darmon et al., 2021, p. 1072). From this perspective, the detection of characteristic punctuation patterns through quantitative analysis may reveal information about emotional context, authorship, or communicative style. Such an approach belongs to stylometry, as it treats punctuation as a measurable feature of textual style (Darmon et al., 2021, p. 1070).
+
+In our project we want to investigate *how reddit topics differ in their use of expressive punctuation*. In order to answer this question we *first* identify punctuation patterns across subreddits. We consider subreddits as proxies for Reddit topics, assuming that each subreddit broadly represents a specific thematic community or area of discussion. *Secondly,* we analyse what expressive functions these punctuation patters may indicate. *Finally,* examine whether punctuation features can predict community specific topics or subreddit categories.
+
+
 ## Dataset
 
 Provide a short description of the dataset used in your project. Focus on highlighting the aspects that are particularly relevant to your work.
