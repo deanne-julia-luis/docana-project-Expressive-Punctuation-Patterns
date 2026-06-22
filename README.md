@@ -28,7 +28,7 @@ Follow this steps to set up your project report:
 _Group members: Oksana Melnyk, Deanne Julia Luis
 ## Introduction
 
-Start off by setting the stage for your project. Give a brief overview of relevant studies or work that have tackled similar issues. Then, clearly describe the main question or problem your project is designed to .
+In everyday life our communication is filled with emotions which are expressed not only verbally through words but also through prosodic cues such as intonation and pitch as well as non-verbally through facial expressions, gestures or posture. However, with the spread of technologies, an increasing amount of everyday communication has moved into online space as informal written interaction. Between late 1990s and 2026 online communication changed drastically from a specialised channel of communications used by technologically privileged groups into a mass means of communication accessible to a larger part ( 75%) of the world’s population (Statistics, n.d.). 
 
 ## Dataset
 
