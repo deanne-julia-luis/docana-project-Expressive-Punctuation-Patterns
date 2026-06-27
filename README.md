@@ -41,7 +41,7 @@ Punctuation patterns in Reddit topics are the focus of this project. In our proj
 
 Punctuation marks can serve as graphic cues that contribute to the emotional expressiveness of a written digital message and to positioning in digital discourse. These cues are constantly developing and changing, enabling users to express complex interpersonal meanings in digital interaction (Androutsopoulos, 2023; Busch, 2021). They can also influence the valence, that is, the emotional direction, of a message (Glauch, 2025).
 
-## Key Marks and Their Meanings
+## Key Expressive Punctuation Marks and Their Meanings
 ### Period / Full Stop (.)
 
 Apart from its formal function of ending a sentence or message, the full stop can convey a range of meanings in digital communication. A message ending with a full stop may signal a lower level of excitement or emphasis. It may also make a message appear more serious or thoughtful (Albritton, 2022). For the reader, such a message may also seem less sincere or more abrupt compared with the same message without a period (Gunraj et al., 2016; Reynolds et al., 2017). This is especially relevant for very short messages, such as “yes.” Although the lexical meaning of yes expresses agreement, the final period may change the perceived valence of the message and suggest annoyance, seriousness, or, in some contexts, anger. However, in longer messages of more than six words, the negative effect of the period appears to weaken or disappear (Kemp et al., 2025).
