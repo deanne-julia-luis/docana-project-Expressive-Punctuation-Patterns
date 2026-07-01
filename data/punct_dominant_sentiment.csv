@@ -1,0 +1,9 @@
+punctuation,dominant_sentiment
+MULTI_QUEST,negative
+MULTI_EXCL,negative
+!,negative
+ELLIPSIS,neutral
+.,neutral
+?,neutral
+QUEST-EXCL,positive
+EXCL-QUEST,positive
