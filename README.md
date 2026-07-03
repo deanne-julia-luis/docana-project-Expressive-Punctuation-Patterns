@@ -91,8 +91,27 @@ pip install -r requirements.txt
 ```
 
 ### Experiments
+#### Preprocessing:
+The first 30% of the training data from the `Webis-TLDR-17` dataset was used. It was loaded via Hugging Face `datasets`. The subreddits were sorted in descending order and the top 10 were selected. Word level tokenization from the `nltk` module is used to split the words and punctuations as tokens. 
 
-Report how you conducted the experiments. We suggest including detailed explanations of the preprocessing steps and model training in your project. For the preprocessing, describe  data cleaning, normalization, or transformation steps you applied to prepare the dataset, along with the reasons for choosing these methods. In the section on model training, explain the methodologies and algorithms you used, detail the parameter settings and training protocols, and describe any measures taken to ensure the validity of the models.
+#### Selection of punctuations:
+Base punctuations, namely periods, exclamations and question marks along with expressive patterns such as ellipses, question mark repetition, exclamation repetitions, and 2 variants of interrobangs were chosen as they represent modern online communication. These patterns were detected using `Regex patterns`.
+
+#### Statistics:
+With a maximum of 1500 posts, the frequencies of the chosen punctuations, average sentence length (with the help of a sentence tokenizer from `nltk`) and average no. of words between punctuations were calculated. This was followed by two visualizations of the frequencies per subreddit, one for the base punctuations and the other for expressive patterns.
+
+#### Classification:
+This section investigates if punctuation features predict community specific topics or subreddit categories. First we calculate the punctuation frequency per 1000 words for 1500 posts in groups of 20 for each of the subreddits. The group size is a bias/variance trade-off that was incorporated to provide more stable and meaningful results. Using these normalization values, a `Cosine similarity` plot is depicted. 
+
+**Models:**
+- **Random Forest Classifier** (`n_estimators=200`, `random_state=42`)
+-**LinearSVC** (`random_state=42`, `max_iter=5000`)
+Single stratified train/test split with a test size of 0.3 and random state of 42 is used, ensuring proportional representation of subreddits in train and test samples.
+
+We used `Random Forest Classifier` with 200 decision trees and `Linear SVC to see if linearity of punctuations plays a role. We then create plots for the Precision-Recall values per subreddit and the ranking of punctuations in terms of classification based on `Random Forest Classifier`’s results.
+
+#### Sentiment Analysis:
+Here `nltk` `VADER`’s  `SentimentIntensityAnalyzer` is used which analyses the polarity of words and assigns scores according to 3 sets of sentiments: positive,neutral and negative. A cap of 300 posts per subreddit is observed here. The analysis is conducted for the posts on 2 categories i.e with and without punctuations and we also use a Flipped column to observe  the difference in the sentiment prediction with and without punctuations. We used `Random Forest Classifier` again to detect the accuracy difference between these two categories. A per subreddit comparison for these 2 categories was also plotted. By their sentiment proportions, the subreddits were then grouped into 3 clusters using `k-means`. We also investigate the dominant sentiments associated with each of the chosen punctuations and the patterns based on this dataset.
 
 ## Results and Discussion
 
