@@ -1,5 +1,5 @@
 title: What???...Punctuation!!!
-description: This project explore expressive punctuation patterns across 10 subreddits. 
+description: This project explores expressive punctuation patterns across 10 subreddits. 
 show_downloads: True
 plugins:
   - jekyll-relative-links
