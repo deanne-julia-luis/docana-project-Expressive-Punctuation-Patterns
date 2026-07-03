@@ -108,7 +108,7 @@ This section investigates if punctuation features predict community specific top
 -**LinearSVC** (`random_state=42`, `max_iter=5000`)
 Single stratified train/test split with a test size of 0.3 and random state of 42 is used, ensuring proportional representation of subreddits in train and test samples.
 
-We used `Random Forest Classifier` with 200 decision trees and `Linear SVC to see if linearity of punctuations plays a role. We then create plots for the Precision-Recall values per subreddit and the ranking of punctuations in terms of classification based on `Random Forest Classifier`’s results.
+We used `Random Forest Classifier` with 200 decision trees and `Linear SVC` to see if linearity of punctuations plays a role. We then create plots for the Precision-Recall values per subreddit and the ranking of punctuations in terms of classification based on `Random Forest Classifier`’s results.
 
 #### Sentiment Analysis:
 Here `nltk` `VADER`’s  `SentimentIntensityAnalyzer` is used which analyses the polarity of words and assigns scores according to 3 sets of sentiments: positive,neutral and negative. A cap of 300 posts per subreddit is observed here. The analysis is conducted for the posts on 2 categories i.e with and without punctuations and we also use a Flipped column to observe  the difference in the sentiment prediction with and without punctuations. We used `Random Forest Classifier` again to detect the accuracy difference between these two categories. A per subreddit comparison for these 2 categories was also plotted. By their sentiment proportions, the subreddits were then grouped into 3 clusters using `k-means`. We also investigate the dominant sentiments associated with each of the chosen punctuations and the patterns based on this dataset.
