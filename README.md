@@ -23,9 +23,9 @@ Follow this steps to set up your project report:
 
 ***
 
-# Expressive Punctuation Patterns
+# What???...Punctuation!!!
 
-_Group members: Oksana Melnyk, Deanne Julia Luis
+Group members: Oksana Melnyk, Deanne Julia Luis
 ## Introduction
 
 In everyday life our communication is filled with emotions which are expressed not only verbally through words but also through prosodic cues such as intonation and pitch as well as non-verbally through facial expressions, gestures or posture. However, with the spread of technologies, an increasing amount of everyday communication has moved into online space as informal written interaction. Between late 1990s and 2026 online communication changed drastically from a specialised channel of communications used by technologically privileged groups into a mass means of communication accessible to a larger part (75%) of the world’s population (Statistics, n.d.). 
