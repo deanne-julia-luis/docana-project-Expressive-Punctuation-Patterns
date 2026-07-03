@@ -69,7 +69,7 @@ Repeated question marks do not necessarily change the emotional direction of the
 
 ## Dataset
 
-We used Webis-TLDR-17, available at https://huggingface.co/datasets/webis/tldr-17  as the dataset for the analysis of punctuation patterns. It comprises about 4 million content-summary pairs for the years 2006-2026 with an average length 270 words for content and 28 words for the summary (Webis/Tldr-17 · Datasets at Hugging Face, 2026). The features of the dataset include author, body, normalizedBody, content, summary, subreddit, subreddit_id. For the project, 30% of the data was used.
+We used Webis-TLDR-17, available at https://huggingface.co/datasets/webis/tldr-17  as the dataset for the analysis of punctuation patterns. It comprises about 4 million content-summary pairs for the years 2006-2016 with an average length 270 words for content and 28 words for the summary (Webis/Tldr-17 · Datasets at Hugging Face, 2026). The features of the dataset include author, body, normalizedBody, content, summary, subreddit, subreddit_id. For the project, 30% of the data was used.
 Text posts and web links are segregated into channels called subreddits, which cover general topics, such as finance, technology etc or specific subjects interesting only to few users. There are about 1.1 million subreddits. Users submit top-level posts in each subreddit. Other users can comment this post, supporting, expanding or contradicting the main post. The top-level post is called submission. It consists of a title and either a link or a user-written body text (Völske et al., 2017, p. 60). We use subreddits as proxy topics for the detection of characteristics punctuation patterns of the community. In the project, top ten subreddits were selected.
 
 ## Methods
