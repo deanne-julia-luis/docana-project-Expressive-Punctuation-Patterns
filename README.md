@@ -75,20 +75,19 @@ Text posts and web links are segregated into channels called subreddits, which c
 ## Methods
 
 ### Setup 
-
-
-Outline the tools, software, and hardware environment, along with configurations used for conducting your experiments. Be sure to document the Python version and other dependencies clearly. Provide step-by-step instructions on how to recreate your environment, ensuring anyone can replicate your setup with ease:
+Create the environment as shown below:
 
 ```bash
 conda create --name myenv python=<version>
 conda activate myenv
 ```
 
-Include a `requirements.txt` file in your project repository. This file should list all the Python libraries and their versions needed to run the project. Provide instructions on how to install these dependencies using pip, for example:
+In the code folder, there is a list of dependecies in `requirements.txt` which needs to be installed as such:
 
 ```bash
 pip install -r requirements.txt
 ```
+Switch out of the code folder and then open jupyter notebook and run the code. 
 
 ### Experiments
 #### Preprocessing:
@@ -123,10 +122,10 @@ Summarize the major outcomes of your project, reflect on the research findings, 
 
 ## Contributions
 
-| Team Member        | Contributions                                             |
-|--------------------|-----------------------------------------------------------|
-| Oksana Melnyk      |                                                           |
-| Deanne Julia Luis  | ...                                                       |
+| Team Member        | Contributions                                                                            |
+|--------------------|------------------------------------------------------------------------------------------|
+| Oksana Melnyk      | Literature Research, deciding approaches and plots, Conclusion                           |
+| Deanne Julia Luis  | Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis |
 
 ## References
 - Albritton, A. (2017). A Rhetorical Model of Punctuation Mark Function in Computer-Mediated Communication. International Journal of Linguistics, Literature and     Culture, 4(1), 17–29.
