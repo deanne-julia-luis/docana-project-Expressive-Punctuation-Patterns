@@ -105,7 +105,7 @@ This section investigates if punctuation features predict community specific top
 
 **Models:**
 - **Random Forest Classifier** (`n_estimators=200`, `random_state=42`)
--**LinearSVC** (`random_state=42`, `max_iter=5000`)
+- **LinearSVC** (`random_state=42`, `max_iter=5000`)
 Single stratified train/test split with a test size of 0.3 and random state of 42 is used, ensuring proportional representation of subreddits in train and test samples.
 
 We used `Random Forest Classifier` with 200 decision trees and `Linear SVC` to see if linearity of punctuations plays a role. We then create plots for the Precision-Recall values per subreddit and the ranking of punctuations in terms of classification based on `Random Forest Classifier`’s results.
