@@ -126,6 +126,28 @@ Based on the classification results, it can be concluded that punctuation featur
 
 Picture 5. Main punctuation features driving classification
 
+### Sentiment analysis
+
+We clustered the subreddits by sentiment mix using k-means clustering (see Picture 6). As a result, three clustered were created: a cluster with the dominant negative sentiment (r/AskReddti, r/politics and r/AdviceAnimals); a cluster with the dominant positive sentiment (r/legueoflegends and r/explainlikeiamfive) and a cluster with the subreddits in the middle between those two clusters (r/todayilearned, r/pics, r/atheism, r/pics, r/gaming and r/funny). If we compare the sentiment clusters with the distribution of punctuation frequencies across the subreddits, we can observe that there is no obvious correlation between the sentiment clustering and the punctuation use. 
+
+![EDA_Sentiment_Clusters_by_Subreddit](./figures/EDA_Sentiment_Clusters_by_Subreddit.png)
+
+Picture 6. Sentiment clusters by subreddit
+
+Our experiment with the sentiment prediction with and without punctuation shows that punctuation has a limited influence on sentiment classification. Punctuation changed the sentiment labels only in approximately 3% of cases. We repeated the classification with the Random Forest Classifier using sentiment labels predicted with sentiments with punctuation and without. The overall accuracy with punctuation was 0.497 and without 0.481, giving the difference of 0.016 (see Picture 7). 
+
+![EDA_Overall_Accuracy_Comparison](./figures/EDA_Overall_Accuracy_Comparison.png)
+
+Picture 7. Accuracy per subreddit with and without punctuation
+
+This result is consistent with the previous findings that only 3% of cases changed their sentiment labels after punctuation was removed. The classification accuracy by subreddit shows that the effect of punctuation is not uniform across the selected communities. In some subreddits punctuation helped the classifier perform better in the sentiment-based prediction (e.g. r/funny, r/atheism, and r/politics), while in other subreddits this effect was absent or the model performed even better without punctuation (e.g. r/AskReddit) (see Picture 8).
+
+![EDA_Accuracy_per_Subreddit](./figures/EDA_Accuracy_per_Subreddit.png)
+
+Picture 8. Accuracy per subreddit with and without punctuation
+
+
+
 
 
 
