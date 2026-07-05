@@ -96,7 +96,7 @@ As the first step, the frequencies per 1500 posts per subreddit were calculated 
 
 The period is the most frequently used punctuation mark in all subreddits (see Plot 1). Since we have not analysed the length of sentences in which the period is used we cannot claim that it carries any additional pragmatic function beyond from its primary syntactic function of marking sentence boundaries. The single question mark is the second most often used punctuation mark in all subreddits. The subreddits r/atheism and r/politics show the highest usage of the single question mark, which is an interesting finding, indicating that contributions in these subreddits more often have an interrogative character in comparison with the contributions in other subreddits. On the contrary, r/explainlikeimfive and r/askreddit use the single question mark the least frequently. Single exclamation marks mostly occur in subreddits r/askReddit, r/funny and r/pics, while r/leagueoflegends, r/atheism and r/politics show the lowest usage of the single exclamation mark, indicating the lower emotional degree of contributions in these subreddits.
 
-![EDA_BasePunct_Distribution](EDA_BasePunct_Distribution.png)
+![EDA_BasePunct_Distribution](figures/EDA_BasePunct_Distribution.png)
 
 
 
