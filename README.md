@@ -152,6 +152,8 @@ Our project about expressive punctuation patterns across subreddits showed that 
 
 We discovered that the dominant punctuation marks across all 10 subreddits are periods from the base punctuation and ellipses from the expressive punctuation patterns. Some subreddits use more frequently expressive punctuation, while the others rely more on base punctuation marks. r/AskReddit and r/funny used more repeated exclamation marks, while repeated question marks occurred more frequently in r/pics, r/funny, r/gaming, and r/politics. These findings suggest that the different subreddits show slightly different levels of emotional expressiveness and involvement. However, the cosine similarity matrix clearly shows that still generally the punctuation profiles are very similar in all 10 selected subreddits. The classification with the Random Forest Classifier and the Linear SVS classifier confirms that these profiles have very weak predictive power. The sentiment analysis led to the similar conclusion that punctuation hardly changes the sentiment label and has limited influence on the sentiment-based classification. 
 
+The further research is necessary on use of broader range of punctuation marks and emoticons in online written communication. There is also a need for research on the generation gap in use of expressive punctuation in the digital environment. 
+
 Generally, we can conclude that punctuation may provide meaningful information in NLP tasks, especially if it is combined with lexical, syntactical or pragmatic analysis. 
 
 
@@ -159,7 +161,7 @@ Generally, we can conclude that punctuation may provide meaningful information i
 
 | Team Member        | Contributions                                                                            |
 |--------------------|------------------------------------------------------------------------------------------|
-|  Deanne Julia Luis    | |   Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis                          |
+| Deanne Julia Luis    | |   Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis                          |
 | Oksana Melnyk  | | Literature Research, deciding approaches and plots, Conclusion
 
 ## References
