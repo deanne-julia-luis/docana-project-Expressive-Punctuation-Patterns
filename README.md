@@ -138,7 +138,7 @@ Our experiment with the sentiment prediction with and without punctuation shows 
 
 ![EDA_Overall_Accuracy_Comparison](./figures/EDA_Overall_Accuracy_Comparison.png)
 
-Picture 7. Accuracy per subreddit with and without punctuation
+Picture 7. Overall accuracy with and without punctuation
 
 This result is consistent with the previous findings that only 3% of cases changed their sentiment labels after punctuation was removed. The classification accuracy by subreddit shows that the effect of punctuation is not uniform across the selected communities. In some subreddits punctuation helped the classifier perform better in the sentiment-based prediction (e.g. r/funny, r/atheism, and r/politics), while in other subreddits this effect was absent or the model performed even better without punctuation (e.g. r/AskReddit) (see Picture 8).
 
@@ -146,15 +146,14 @@ This result is consistent with the previous findings that only 3% of cases chang
 
 Picture 8. Accuracy per subreddit with and without punctuation
 
-
-
-
-
-
-
 ## Conclusion
 
-Summarize the major outcomes of your project, reflect on the research findings, and clearly state the conclusions you've drawn from the study.
+Our project about expressive punctuation patterns across subreddits showed that the quantitative analysis of these patterns can provide meaningful insights into subreddit-specific styles, emotional involvement and communicative practices. However, these patterns are not strong enough to reliably classify subreddits or considerably change sentiment labels. 
+
+We discovered that the dominant punctuation marks across all 10 subreddits are periods from the base punctuation and ellipses from the expressive punctuation patterns. Some subreddits use more frequently expressive punctuation, while the others rely more on base punctuation marks. r/AskReddit and r/funny used more repeated exclamation marks, while repeated question marks occurred more frequently in r/pics, r/funny, r/gaming, and r/politics. These findings suggest that the different subreddits show slightly different levels of emotional expressiveness and involvement. However, the cosine similarity matrix clearly shows that still generally the punctuation profiles are very similar in all 10 selected subreddits. The classification with the Random Forest Classifier and the Linear SVS classifier confirms that these profiles have very weak predictive power. The sentiment analysis led to the similar conclusion that punctuation hardly changes the sentiment label and has limited influence on the sentiment-based classification. 
+
+Generally, we can conclude that punctuation may provide meaningful information in NLP tasks, especially if it is combined with lexical, syntactical or pragmatic analysis. 
+
 
 ## Contributions
 
@@ -164,8 +163,8 @@ Summarize the major outcomes of your project, reflect on the research findings, 
 | Deanne Julia Luis  | Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis |
 
 ## References
-- Albritton, A. (2017). A Rhetorical Model of Punctuation Mark Function in Computer-Mediated Communication. International Journal of Linguistics, Literature and     Culture, 4(1), 17–29.
-- Albritton, A. (2021). What’s the Point? A Study of Full-Stop Use in Text Messages in Varying Emotional Contexts. Online Journal of Communication and Media   Technologies, 12(1), e202203. https://doi.org/10.30935/ojcmt/11431
+- Albritton, A. (2017). A Rhetorical Model of Punctuation Mark Function in Computer-Mediated Communication. International Journal of Linguistics, Literature and Culture, 4(1), 17–29.
+- Albritton, A. (2021). What’s the Point? A Study of Full-Stop Use in Text Messages in Varying Emotional Contexts. Online Journal of Communication and Media Technologies, 12(1), e202203. https://doi.org/10.30935/ojcmt/11431
 - Androutsopoulos, J. (2020). Auslassungspunkte in der schriftbasierten Interaktion. In J. Androutsopoulos & F. Busch (Eds), Register des Graphischen (pp. 133–158). De Gruyter. https://doi.org/10.1515/9783110673241-006
 - Androutsopoulos, J. (2023). Punctuating the other: Graphic cues, voice, and positioning in digital discourse. Language & Communication, 88, 141–152. https://doi.org/10.1016/j.langcom.2022.11.004
 - Busch, F. (2021). The interactional principle in digital punctuation. Discourse, Context & Media, 40, 100481. https://doi.org/10.1016/j.dcm.2021.100481
@@ -178,8 +177,7 @@ Summarize the major outcomes of your project, reflect on the research findings, 
 - Reynolds, K., Casarotto, B., Noviski, S., & Roche, J. M. (2017). Using punctuation as a marker of sincerity and affective convergence during texting. Proceedings of the Annual Meeting of the Cognitive Science Society, 39(0). https://escholarship.org/uc/item/6mw7v01s
 - Sidi, Y., Glikson, E., & Cheshin, A. (2021). Do You Get What I Mean?!? The Undesirable Outcomes of (Ab)Using Paralinguistic Cues in Computer-Mediated Communication. Frontiers in Psychology, 12. https://doi.org/10.3389/fpsyg.2021.658844
 - Statistics. (n.d.). ITU. Retrieved 21 June 2026, from https://www.itu.int:443/en/ITU-D/Statistics/pages/stat/default.aspx
+- Völske, M., Potthast, M., Syed, S., & Stein, B. (2017). TL;DR: Mining Reddit to Learn Automatic Summarization. In L. Wang, J. C. K. Cheung, G. Carenini, & F. Liu (Eds), Proceedings of the Workshop on New Frontiers in Summarization (pp. 59–63). Association for Computational Linguistics. https://doi.org/10.18653/v1/W17-4508
+- Webis/tldr-17 · Datasets at Hugging Face. (2026, March 1). https://huggingface.co/datasets/webis/tldr-17
 
-
-
-Include a list of academic and professional sources you cited in your report, using an appropriate citation format to ensure clarity and proper attribution.
 
