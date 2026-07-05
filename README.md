@@ -104,6 +104,16 @@ Among all expressive punctuation marks, the ellipsis has the highest frequency a
 ![EDA_ExpressivePatterns_Distribution](./figures/EDA_ExpressivePatterns_Distribution.png)
 Picture 3. Distribution of expressive patterns across subreddits
 
+## Predicting the subreddits
+
+*Cosine similarity*
+
+Cosine similarity helped us to examine the similarity of punctuation patterns between the subreddits. After defining the average punctuation profile for each subreddit, cosine similarity was calculated by group means and plotted in a similarity matrix (see Picture 4). Overall, the punctuation patterns show very high cosine similarity scores, with the lowest value being 0.9988 and the highest value being 1.000. This indicates that the top ten subreddits do not differ strongly in their punctuation profiles but rather in the frequency of punctuation use. High cosine similarity may be also caused by the dominance of one or two features over the vector, such as periods and ellipses. Since all subreddits have very high proportion of periods and ellipses, so all vectors may look similar. 
+
+![EDA_CosineSimilarity](./figures/EDA_CosineSimilarity.png)
+Picture 4. Cosine similarity matrix
+
+
 
 
 ## Conclusion
