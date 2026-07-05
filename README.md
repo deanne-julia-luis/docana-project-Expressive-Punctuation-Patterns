@@ -111,7 +111,21 @@ Picture 3. Distribution of expressive patterns across subreddits
 Cosine similarity helped us to examine the similarity of punctuation patterns between the subreddits. After defining the average punctuation profile for each subreddit, cosine similarity was calculated by group means and plotted in a similarity matrix (see Picture 4). Overall, the punctuation patterns show very high cosine similarity scores, with the lowest value being 0.9988 and the highest value being 1.000. This indicates that the top ten subreddits do not differ strongly in their punctuation profiles but rather in the frequency of punctuation use. High cosine similarity may be also caused by the dominance of one or two features over the vector, such as periods and ellipses. Since all subreddits have very high proportion of periods and ellipses, so all vectors may look similar. 
 
 ![EDA_CosineSimilarity](./figures/EDA_CosineSimilarity.png)
+
 Picture 4. Cosine similarity matrix
+
+*Classification*
+
+The classification was performed using both models The Random Forest Classifier and The LinearSVC classifier. The accuracy of the Random Forest Classifier is 0.1911. The LinearSVC classifier shows a slightly better accuracy of 0.2267. Since the dataset has ten subreddits with a relatively balanced test examples, a random baseline is approximately 0.10. This means that both classifiers only slightly better perform above the chance level. This result can be interpreted in line with the high scores of cosine similarity: the selected subreddits do contain some subreddit-specific punctuation information but their punctuation profiles are not distinctive enough to reliably predict subreddits.
+
+The comparison of scores across the ten subreddits suggests that some subreddits have more recognisable punctuation patterns than the others. In the Random Forest Classifier, the subreddits r/AskReddit, r/politics and r/explainlikeiamfive have the highest values of precision (0.29, 0.28, 0.23), recall (0.41, 0.32, 0.30) and F1 (0.34, 0.30 and 0.26 respectively), indicating that they have more distinctive punctuation profiles than other subreddits (see Plot 4). Such subreddits as r/funny and r/todayilearned have very low precision (0.07 and 0.11), recall (0.04 and 0.04) and F1-scores (0.05 and 0.06 respectively), suggesting that the classifier mostly cannot distinguish them from other subreddits. The Linear SVS classifier performs slightly better than the Random Forest classifier, achieving accuracy of 0.2267. The better performance of the Linear SVC classifier indicates that the selected punctuation patterns are slightly more linearly separable. Linear SVC is also less sensitive to noisy data because it uses a linear decision boundaries. The subreddits r/atheism, r/ explainlikeimfive and r/AskReddit achieve the highest precision (0.28, 0.25 and 0.21), recall (0.48, 0.57 and 0.45) and F1 scores (0.35, 0.34 and 0.29 respectively), while the model fails to classify the subreddits r/AdviceAnimals and r/todayilearned, both having 0.00 scores in all classification mentrics.
+
+Based on the classification results, it can be concluded that punctuation features have weak predictive power for subreddit classification. This may partly be explained by the fact that the main punctuation features driving classification are periods, single question marks, ellipses and single exclamation marks (see Picture 5). Except for ellipses these features do not belong to strong expressive patterns but rather have conventional and basic expressive functions. 
+
+![EDA_Top_10_Puncts_Rfc](./figures/EDA_Top_10_Puncts_Rfc.png)
+
+Picture 5. Accuracy by subreddit
+
 
 
 
