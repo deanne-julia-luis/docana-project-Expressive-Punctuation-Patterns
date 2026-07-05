@@ -122,9 +122,9 @@ The comparison of scores across the ten subreddits suggests that some subreddits
 
 Based on the classification results, it can be concluded that punctuation features have weak predictive power for subreddit classification. This may partly be explained by the fact that the main punctuation features driving classification are periods, single question marks, ellipses and single exclamation marks (see Picture 5). Except for ellipses these features do not belong to strong expressive patterns but rather have conventional and basic expressive functions. 
 
-![EDA_Top_10_Puncts_Rfc](./figures/EDA_Top_10_Puncts_Rfc.png)
+![EDA_Top_Puncts_Rfc](./figures/EDA_Top_Puncts_Rfc.png)
 
-Picture 5. Accuracy by subreddit
+Picture 5. Main punctuation features driving classification
 
 
 
