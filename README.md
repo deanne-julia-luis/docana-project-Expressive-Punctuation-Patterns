@@ -159,8 +159,8 @@ Generally, we can conclude that punctuation may provide meaningful information i
 
 | Team Member        | Contributions                                                                            |
 |--------------------|------------------------------------------------------------------------------------------|
-| Oksana Melnyk      | Literature Research, deciding approaches and plots, Conclusion                           |
-| Deanne Julia Luis  | Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis |
+|  Deanne Julia Luis    | |   Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis                          |
+| Oksana Melnyk  | | Literature Research, deciding approaches and plots, Conclusion
 
 ## References
 - Albritton, A. (2017). A Rhetorical Model of Punctuation Mark Function in Computer-Mediated Communication. International Journal of Linguistics, Literature and Culture, 4(1), 17–29.
