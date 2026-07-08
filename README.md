@@ -140,7 +140,9 @@ Our experiment with the sentiment prediction with and without punctuation shows 
 
 Picture 7. Overall accuracy with and without punctuation
 
-This result is consistent with the previous findings that only 3% of cases changed their sentiment labels after punctuation was removed. The classification accuracy by subreddit shows that the effect of punctuation is not uniform across the selected communities. In some subreddits punctuation helped the classifier perform better in the sentiment-based prediction (e.g. r/funny, r/atheism, and r/politics), while in other subreddits this effect was absent or the model performed even better without punctuation (e.g. r/AskReddit) (see Picture 8).
+This result is consistent with the previous findings that only 3% of cases changed their sentiment labels after punctuation was removed. 
+
+The classification accuracy by subreddit shows that the effect of punctuation is not uniform across the selected communities. In some subreddits punctuation helped the classifier perform better in the sentiment-based prediction (e.g. r/funny, r/atheism, and r/politics), while in other subreddits this effect was absent or the model performed even better without punctuation (e.g. r/AskReddit) (see Picture 8).
 
 ![EDA_Accuracy_per_Subreddit](./figures/EDA_Accuracy_per_Subreddit.png)
 
