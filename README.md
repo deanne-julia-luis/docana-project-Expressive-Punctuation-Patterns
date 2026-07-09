@@ -17,26 +17,26 @@ Punctuation patterns in Reddit topics are the focus of this project. In our proj
 
 Punctuation marks serve as graphic cues of emotional expressiveness of a written digital message and positioning in digital discourse. These cues constantly develop and change to enable  the digital  expression of complex interactions between people in reality (Androutsopoulos, 2023; Busch, 2021). They can also change the valence (emotional direction) of a message (Glauch, 2025). Within our project we distinguish between conventional punctuation patterns such as periods, single exclamation marks and single question marks and repeated expressive punctuation patterns such as ellipsis, repeated exclamation marks, repeated question marks and their combinations.
 
-## Key Expressive Punctuation Marks and Their Meanings
-### Period / Full Stop (.)
+### Key Expressive Punctuation Marks and Their Meanings
+#### Period / Full Stop (.)
 
-Apart from its formal function of ending a sentence or a message a full stop can convey a range of emotions in the digital communication. A message, which ends with a full stop, can signal a lower level of excitement and emphasis. It may be used to make a message more serious, thoughtful (Albritton, 2021). For a reader such a message may also appear less sincere and more annoying comparing to the same message but without a period (Gunraj et al., 2016; Reynolds et al., 2017). Especially it concerns very short messages (up to three words), for example such as “yes” (the lexical meaning of “yes” is agreement, but with a period at the end, the valence of a message is changed, it may express annoyance or seriousness, in some context even anger). In long messages over six words, a period loses its negative effect (Kemp et al., 2025).
+Apart from its formal function of ending a sentence or a message a period can convey a range of emotions in the digital communication. A message, which ends with a period, can signal a lower level of excitement and emphasis. It may be used to make a message more serious, thoughtful (Albritton, 2021). For a reader such a message may also appear less sincere and more annoying comparing to the same message but without a period (Gunraj et al., 2016; Reynolds et al., 2017). Especially it concerns very short messages (up to three words), for example such as “yes” (the lexical meaning of “yes” is agreement, but with a period at the end, the valence of a message is changed, it may express annoyance or seriousness, in some context even anger). In long messages over six words, a period loses its negative effect (Kemp et al., 2025).
 
-### Exclamation Mark (!) and Repetition (!!!)
+#### Exclamation Mark (!) and Repetition (!!!)
 
-Unlike a period, which initially had predominantly a syntactic function, an exclamation mark is considered a communicative sign, which is oriented to participant stances. But it has also experienced functional shifts, the most obvious change is an intended repetition (Busch, 2021, p. 6). 
+Unlike a period, which initially had predominantly a syntactic function, an exclamation mark is considered a communicative sign, which helps to express participant's opinions and attitudes. But it has also experienced functional shifts, the most obvious change is an intended repetition (Busch, 2021, p. 6). 
 
 The exclamation mark serves as an intensifier of an emotion expressed in a message, both positive and negative. It is assumed that the exclamation mark does not change the valence of a message (Glauch, 2025, p. 185) (e.g. “It’s funny!” does not convey any other emotion than the one expressed in the message).
 
 Repeatability is a typical characteristic of an expressive meaning. Repeated use of the exclamation mark (!!!) does not convey redundancy, but it increases the expressive function the exclamation mark inherently has. However, it can potentially change the emotional direction of a message (Busch, 2021; Glauch, 2025). The variation of the repeated exclamation mark is the indignation mark, a combination of the exclamation mark <!> and the digit <1>, such as <!1!!>, <!!11!>, or <!!1!11>. The pragmatic meaning of this graphical cue is mocking and sarcasm (Androutsopoulos, 2023).
 
-### Ellipsis (...)
+#### Ellipsis (...)
 
 Traditionally, ellipsis is used for expression of omission or unfinished thought but in digital communication it may also convey hesitation, continuation or emotional distance. It creates an impression of a pause or a delayed response (Albritton, 2017). It is perceived as a neutral mark (Reynolds et al., 2017), not changing the emotional direction of a message.
 
 Ong (2011) found out that stand-alone ellipsis marks can represent confusion, lack of understanding, or disagreement with a previous utterance, especially when they occur after an earlier sequence of explicit disagreement. The position of the ellipsis can change its pragmatic function: ellipses occur most often in the middle of contributions, where they function as general-purpose segmenters, often replacing commas or periods. Message-final ellipses, by contrast, often indicate openness, continuation, or shared background knowledge. Stand-alone ellipses can express speechlessness, disappointment, silent agreement, or interpersonal alignment (Androutsopoulos, 2020).
 
-### Repeated Question Marks (???)
+#### Repeated Question Marks (???)
 
 Repeated question marks almost never convey only an interrogative character of a message but signal that the author perceives the issue as an urgent, emotionally loaded or important matter. In such context, multiple question marks can express impatience, surprise or concern (Sidi et al., 2021). They do not change the emotional direction of the message but depending on the perspective (author’s or receiver’s) it can be evaluated neutrally or negatively, showing lack of competence, disbelief, shock or anger (Kruger, 2023).
 
