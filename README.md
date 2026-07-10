@@ -28,7 +28,7 @@ Unlike a period, which initially had predominantly a syntactic function, an excl
 
 The exclamation mark serves as an intensifier of an emotion expressed in a message, both positive and negative. It is assumed that the exclamation mark does not change the valence of a message (Glauch, 2025, p. 185) (e.g. “It’s funny!” does not convey any other emotion than the one expressed in the message).
 
-Repeatability is a typical characteristic of an expressive meaning. Repeated use of the exclamation mark (!!!) does not convey redundancy, but it increases the expressive function the exclamation mark inherently has. However, it can potentially change the emotional direction of a message (Busch, 2021; Glauch, 2025). The variation of the repeated exclamation mark is the indignation mark, a combination of the exclamation mark <!> and the digit <1>, such as <!1!!>, <!!11!>, or <!!1!11>. The pragmatic meaning of this graphical cue is mocking and sarcasm (Androutsopoulos, 2023).
+Repeatability is a typical characteristic of an expressive meaning. Repeated use of the exclamation mark (!!!) does not convey redundancy, but it increases the expressive function the exclamation mark inherently has. However, it can potentially change the emotional direction of a message (Busch, 2021; Glauch, 2025). The variation of the repeated exclamation mark is the indignation mark, a combination of the exclamation mark <!> and the digit <1>, such as <!1!!>, <!!11!>, or <!!1!11>. The pragmatic meaning of this graphical cue is mocking and sarcasm (Androutsopoulos, 2023). The indignation mark was not included in our analysis.
 
 #### Ellipsis (...)
 
