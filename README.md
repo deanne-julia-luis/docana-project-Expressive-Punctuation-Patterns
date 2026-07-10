@@ -170,7 +170,8 @@ Generally, we can conclude that punctuation may provide meaningful information i
 | Deanne Julia Luis    | Preprocessing, Visualization, Statistics Calculation, Classification, Sentiment Analysis                          |
 | Oksana Melnyk  | Introduction, Literature Research, Deciding Approaches and Plots, Results Description, Conclusion |
 
-ChatGPT-5 was used to correct grammar mistakes, and Zotero was used to manage citations and references
+ChatGPT-5 was used to correct grammar mistakes, and Zotero was used to manage citations and references.
+Claude was used to choose the visualizations.
 
 ## References
 - Albritton, A. (2017). A Rhetorical Model of Punctuation Mark Function in Computer-Mediated Communication. International Journal of Linguistics, Literature and Culture, 4(1), 17–29.
